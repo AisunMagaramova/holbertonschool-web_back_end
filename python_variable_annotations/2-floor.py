@@ -1,4 +1,4 @@
-#!/usr/bin/env pythoni3
+#!/usr/bin/env python3
 import math
 """ arqumet olaraq float n qebul edilir"""
 
