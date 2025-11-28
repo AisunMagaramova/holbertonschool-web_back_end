@@ -3,5 +3,5 @@
 
 
 def to_str(n: float) -> str:
-"""float-ınsetir temsilçiliyini qaytaran to_str tipli annotasiyalı fun"""
+    """float-ınsetir temsilçiliyini qaytaran to_str tipli annotasiyalı fun"""
     return str(n)
