@@ -1,8 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env pythoni3
 import math
 """ arqumet olaraq float n qebul edilir"""
 
 
-def floor_floar (n: float) -> int:
+def floor_float(n: float) -> int:
 """ floatn pol deyerini qaytarir"""
-    return floor_floar(n)
+    return math_floor(n)
