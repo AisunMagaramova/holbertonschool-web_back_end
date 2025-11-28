@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import math
 """
 arqumet olaraq float n qebul edilir
 """
+import math
 
 
 def floor_float(n: float) -> int:
