@@ -5,7 +5,7 @@ arqumet olaraq float n qebul edilir
 import math
 
 
-def floor_float(n: float) -> int:
+def floor(n: float) -> int:
 """
 floatn pol deyerini qaytarir
 """
