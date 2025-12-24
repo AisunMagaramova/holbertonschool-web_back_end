@@ -1,7 +1,7 @@
 function taskBlock() {
-	let message = 'hello':
+	const message = 'hello':
 	if (true) {
-		let message = 'hi';
+		const message = 'hi';
 	}
 	return message;
 }
