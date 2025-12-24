@@ -1,23 +1,15 @@
-// taskFirst funksiyasi yaradilir
-export function taskFirst (){
-	// const istifade edirik cunki sonradan deyeismeyecek
-	const task = 'I prefer const when I can.';
-	// task deyisen deyeri qaytarir
-	return task;
-}
-export function getLast(){
-	return 'is okay';
+export function taskFirst() {
+  const task = 'I prefer const when I can.';
+  return task;
 }
 
-// taskNext adli funksiya yatrdilir
-export function taskNext (){
+export function getLast() {
+  return ' is okay';
+}
 
-	//combinationadli adli deyisen yaradilir
-	//let istifade edirik cunki sonra deyeri deyisdireceyik
-	let combination = 'But sometimes let';
+export function taskNext() {
+  let combination = 'But sometimes let';
+  combination += getLast();
 
-	// combination deyisenini deyeri yeniden deyisdiririk 
-	combination += getLast();
-
-	return combination;
+  return combination;
 }
