@@ -8,8 +8,7 @@ function taskFirst (){
 
 // taskNext adli funksiya yatrdilir
 function taskNext (){
-	// deyismeyen bir deyer ucun const istifade olunur
-	const message = 'Let me change it';
+	let message = 'Let me change it'; // let istifade  olunur
 
 	//combinationadli adli deyisen yaradilir
 	//let istifade edirik cunki sonra deyeri deyisdireceyik
