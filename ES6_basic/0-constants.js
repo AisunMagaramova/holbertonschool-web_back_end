@@ -5,12 +5,18 @@ function taskFirst (){
 	// task deyisen deyeri qaytarir
 	return task;
 }
+
 // taskNext adli funksiya yatrdilir
 function taskNext (){
+	// deyismeyen bir deyer ucun const istifade olunur
+	const mesagge = 'Let me change it';
+
 	//combinationadli adli deyisen yaradilir
 	//let istifade edirik cunki sonra deyeri deyisdireceyik
 	let combination = 'But sometimes let';
+
 	// combination deyisenini deyeri yeniden deyisdiririk 
 	combination = "Let me change it";
+
 	return combination;
 }
