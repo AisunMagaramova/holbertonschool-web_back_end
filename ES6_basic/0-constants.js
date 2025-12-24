@@ -8,8 +8,8 @@ function taskFirst (){
 // taskNext adli funksiya yatrdilir
 function taskNext (){
 	//combinationadli adli deyisen yaradilir
-	//left istifade edirik cunki sonra deyeri deyisdireceyik
-	left combination = 'But sometimes let';
+	//let istifade edirik cunki sonra deyeri deyisdireceyik
+	let combination = 'But sometimes let';
 	// combination deyisenini deyeri yeniden deyisdiririk 
 	combination = "Let me change it";
 	return combination;
