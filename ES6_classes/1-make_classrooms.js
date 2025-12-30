@@ -1,3 +1,9 @@
-import initializeRooms from './1-make_classrooms.js';
+import ClassRoom from './0-classroom';
 
-console.log(initializeRooms());
+const initializeRooms = () => {
+  const array = [19, 20, 34];
+
+  return array.map((n) => new ClassRoom(n));
+};
+
+export default initializeRooms;
